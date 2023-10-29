@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #4A90E2; /* Vivid Blue Background */
+    color: #fff; /* White Text */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #FF6B81; /* Coral Pink Box */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding: 20px;
+    width: 320px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #fff; /* White Text */
+}
+
+.input-container {
+    margin: 20px 0;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #FF6B81; /* Coral Pink Border */
+    border-radius: 5px;
+    outline: none;
+    color: #333; /* Dark Gray Text */
+    background-color: #fff; /* White Background */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #589ecc; /* Vivid Blue Button */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #357ABD; /* Slightly Darker Blue on Hover */
+}
+
+p#result {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333; /* Dark Gray Text */
+}
